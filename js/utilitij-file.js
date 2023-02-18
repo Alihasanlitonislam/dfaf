@@ -2,7 +2,7 @@ function inputElementId(element){
     const inputElement = document.getElementById(element)
     const inputElementString = inputElement.value
     const inputElementNumber = parseFloat(inputElementString)
-    if(inputElementString === "" || inputElementString === "0" || isNaN(inputElementString)){
+    if(inputElementString === "" || inputElementString === "0"){
         alert("plese enter your number")
     }
     else{
