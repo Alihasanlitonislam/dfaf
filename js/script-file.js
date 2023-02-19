@@ -56,7 +56,7 @@ document.getElementById("btn-rhombus").addEventListener("click", function(){
     // rhombus totle 
     const rhombusTotle = rhombusNumber * rhombusId * 0.5
     // Area Calculation rhombus totle add 
-    const rhombus = document.getElementById("rhombus")
+    const rhombus = document.getElementById("rhombus-element")
     rhombus.innerText = rhombusTotle
     const rhombusBlock = document.getElementById("rhombus-block")
     rhombusBlock.style.display = "flex ";
