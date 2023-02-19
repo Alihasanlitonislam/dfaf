@@ -24,7 +24,7 @@ document.getElementById("btn-rectangle").addEventListener("click", function(){
     const rectangleElenetLength = inputElementNumbers("rectangle-height-element")
     const rectangleElementTotle = rectangleElenetHeight*rectangleElenetLength
     // Area Calculation rectangle totle add
-    const rectangle = document.getElementById("rectangle-id")
+    const rectangle = document.getElementById("rectangle-id-element")
     rectangle.innerText = rectangleElementTotle;
     const displayBlock = document.getElementById("triangle-block")
     displayBlock.style.display = "flex ";
@@ -41,7 +41,7 @@ document.getElementById("btn-parallelogram").addEventListener("click", function(
     const parallelogramElementLength = inputElementNumbers("parallelogram-length")
     const parallelogramTotle = parallelogramElementHeight*parallelogramElementLength;
     //Area Calculation parallelogram totle add
-    const parallelogramFilt = document.getElementById("parallelogram-id")
+    const parallelogramFilt = document.getElementById("parallelogram-id-element")
     parallelogramFilt.innerText = parallelogramTotle
     const parallelogBlock = document.getElementById("parallelogram-block")
     parallelogBlock.style.display = "flex ";
@@ -75,7 +75,7 @@ document.getElementById("btn-pentagon").addEventListener("click", function(){
     // Area Calculation pentagon totle add
     const pentagonFilt = document.getElementById("pentagon-filt")
     pentagonFilt.innerText = pentagonTotle
-    const pentagonBlock = document.getElementById("pentagon-block")
+    const pentagonBlock = document.getElementById("pentagon-block-element")
     pentagonBlock.style.display = "flex ";
 })
 document.getElementById("btn-ellipse").addEventListener("click", function(){
